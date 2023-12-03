@@ -1,18 +1,18 @@
-h1:hover {
-    background-color: chocolate;
-    font-weight: bold;
+h3:hover {
+    background-color: yellow;
+    font-weight: italic;
 }
-h1:active {
-    color:red;
-    font-style: italic;
+h3:active {
+    color:green;
+    font-style: oblique;
 }
-h1::before {
-    content: 'Good day to you';
+h3::before {
+    content: 'Hi';
     color:blue;
-    font-weight: lighter;
+    font-weight: bolder;
 }
-h1::after {
-    content: 'Goodbye';
-    color:purple;
-    font-family: Georgia;
+h3::after {
+    content: 'Gl';
+    color: red;
+    font-family: Arial, Helvetica, sans-serif;
 }
